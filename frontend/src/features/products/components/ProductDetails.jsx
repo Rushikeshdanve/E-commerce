@@ -17,8 +17,10 @@ import { createWishlistItemAsync, deleteWishlistItemByIdAsync, resetWishlistItem
 import { useTheme } from '@mui/material'
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
-import SwipeableViews from 'react-swipeable-views';
-import { autoPlay } from 'react-swipeable-views-utils';
+// import SwipeableViews from 'react-swipeable-views';
+// import { autoPlay } from 'react-swipeable-views-utils';
+import SwipeableViews from 'react-swipeable-views-react-18-fix';
+import { autoPlay } from 'react-swipeable-views-react-18-fix/lib/autoPlay';
 import MobileStepper from '@mui/material/MobileStepper';
 import Lottie from 'lottie-react'
 import {loadingAnimation} from '../../../assets'
