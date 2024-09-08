@@ -22,7 +22,8 @@
     "react-redux": "^9.0.2",
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
-    "react-swipeable-views-react-18-fix": "^0.14.1",
+    "react-swipeable-views": "npm:react-swipeable-views-react-18-fix",
+    "react-swipeable-views-utils": "^0.14.0",
     "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"
   },
