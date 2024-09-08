@@ -34,10 +34,10 @@ export const loginAsync=createAsyncThunk('auth/loginAsync',async(cred)=>{
     return res
 })
 
-// export const verifyOtpAsync=createAsyncThunk('auth/verifyOtpAsync',async(cred)=>{
-//     const res=await verifyOtp(cred)
-//     return res
-// })
+export const verifyOtpAsync=createAsyncThunk('auth/verifyOtpAsync',async(cred)=>{
+    const res=await verifyOtp(cred)
+    return res
+})
 export const resendOtpAsync=createAsyncThunk("auth/resendOtpAsync",async(cred)=>{
     const res=await resendOtp(cred)
     return res
